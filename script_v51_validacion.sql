@@ -1,9 +1,8 @@
-/*
-Para realizar pruebas sin cambios de datos, validando que existan todas la tablas y campos modificar 
-*/
+# Para realizar pruebas sin cambios de datos, validando que existan todas la tablas y campos modificar 
+# v1.0
 
 # SELECCIONAR LA BASE DE DATOS DE LA EMPRESA
-USE ERP_EYNGROUP;
+USE ERP_RECONVERSION;
 
 UPDATE DPACTIVOS SET 
 ATV_COSADQ=ATV_COSADQ, 

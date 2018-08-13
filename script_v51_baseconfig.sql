@@ -1,12 +1,8 @@
-/*
-Vaciar campos de auditoria y campos de registros de cambios.
-Identificar la Base de Datos de Configuracion segun la Version: Ejm. "apconfig" - "admconfig" - "dpconfig51" 
-*/
+# Vaciar campos de auditoria y campos de registros de cambios.
+# v1.0
 
 # SELECCIONAR LA BASE DE DATOS DE CONFIGURACION
-USE APCONFIG;
-
-
+USE SUCONFIG;
 
 TRUNCATE DPAUDELIMODCNF;
 TRUNCATE DPAUDELIMODDIC;
