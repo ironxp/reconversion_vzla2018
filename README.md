@@ -6,11 +6,32 @@ Varios Script y Programas para La Reconversion en Venezuela
 
 ### script_v51_validacion.sql
 01) Ejecutar gestor de interface de base de datos SQL (HeidiSQL, SqlFront, Navicat, Etc.)
+
+<p align="center">
+  <img src="Imagen01.jpg" width="350"/>
+  <img src="Imagen02.jpg" width="350"/>
+  <img src="Imagen03.jpg" width="350"/>
+</p
+
 02) Identificar la base de datos de la empresa: Ejm. 'apbase' - 'dpadmwin' - 'dpsgev51' - 'suempresa' - 'erp_miempresa'
 03) Realizar respaldo de la base de datos: *identifique correctamente su empresa*
+
+<p align="center">
+  <img src="Imagen04.jpg" width="350"/>
+</p
+
 04) Abrir o Cargar el archivo *script_v51_validacion.sql* con el gestor de base de datos
+
+<p align="center">
+  <img src="Imagen05.jpg" width="350"/>
+</p
+
 05) Desde la ventana de consulta, identificar y reemplazar el nombre de *'ERP_RECONVERSION'* por el de su base de datos 
 06) Ejecutar el proceso, *esto validara que todos los campos a ser reconvertidos existan en la estructura* 
+
+<p align="center">
+  <img src="Imagen06.jpg" width="350"/>
+</p
 
 (si el proceso de validacion falla en algun campo, no debe ejecutar el siguiente script) 
 
